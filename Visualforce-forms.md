@@ -28,10 +28,8 @@ Forms embedded in Visualforce pages provide a mechanism to create and update Sal
         </div>
 
 6. View the page by entering the following URL in your browser:
-
 `https://<salesforce_instance>/apex/AccountEdit`, where `<salesforce_instance>` is the instance of Salesforce that is hosting your DE environment, for example `na6.salesforce.com`. Our page now displays additional instructions for the user, but as yet no way for them to enter data.
-
-![](images/page_inst.png)
+  ![](images/page_inst.png)
 
 ##Step 2: Add the Form
 
