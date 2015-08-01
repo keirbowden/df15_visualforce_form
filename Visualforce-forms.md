@@ -27,7 +27,7 @@ Forms embedded in Visualforce pages provide a mechanism to create and update Sal
     	    </p>	
         </div>
 
-View the page by entering the following URL in your browser:
+6. View the page by entering the following URL in your browser:
 
 `https://<salesforce_instance>/apex/AccountEdit`, where `<salesforce_instance>` is the instance of Salesforce that is hosting your DE environment, for example `na6.salesforce.com`. Our page now displays additional instructions for the user, but as yet no way for them to enter data.
 
@@ -75,7 +75,7 @@ For the purposes of this Quick Start, the users would like to be able to write a
 
 2. Reload the page to see the new section and wide input:
 
-![](images/page_form2.png)
+  ![](images/page_form2.png)
 
 > The `style="width:85%"` attribute instructs the `<apex:inputField/>` component to generate a text area taking up 85% of the available space. Without this the width would default to that of the inputs in the **Key Account Details** section.
 
@@ -107,13 +107,16 @@ Users are unlikely to be happy with a solution that requires them to edit the UR
 1. Click **Your Name | Setup**
 2. Locate the **Create** menu, expand the **Customize** submenu, expand the **Account** submenu and click the **Buttons, Links, and Actions** option
 
-![](images/setup_account.png)
+  ![](images/setup_account.png)
+  
 3. On the resulting page, locate the item in the list with the label **Edit** and click the **Edit** link in the **Action** column:
 
-![](images/setup_edit.png)
+  ![](images/setup_edit.png)
+  
 4. On the resulting page select the **Visualforce Page** radio button for the **Override With** element, choose **AccountEdit [Account Edit]** from the list of pages and click the **Save** button:
 
-![](images/setup_edit_override.png)
+  ![](images/setup_edit_override.png)
+  
 5. Repeat the above two steps for the item in the list with the label **Create**  
 6. Test the Edit override. Navigate to any Account record and click the **Edit** button - the platform automatically loads the custom Visualforce override page populated with the details of the selected Account record  
 7. Test the Create override. Navigate to the Account tab and click the **New** button - the platform automatically loads the custom Visualforce override page, but with all fields empty as you are creating a new record
